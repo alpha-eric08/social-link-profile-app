@@ -8,11 +8,39 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <main class="max-w-2xl h-max mx-auto bg-off-black p-4">
+    <main
+      class="max-w-xs flex flex-col rounded-md h-[500px] mx-auto p-4 mt-28 items-center justify-center"
+    >
       <!-- image secion -->
-      <section class="rounded-md overflow-hidden">
-        <img src="./assets/avatar-jessica.jpeg" alt="avatar-jessica" />
+      <section class="w-16 rounded-full overflow-hidden mx-auto">
+        <img
+          src="./assets/avatar-jessica.jpeg"
+          alt="avatar-jessica"
+          class="w-full"
+        />
       </section>
+      <div class="mx-auto flex flex-col items-center">
+        <h1 class="text-xl pt-3">Jessica Randall</h1>
+        <h3 class="text-xs">London,United Kindom</h3>
+        <p class="p-4 text-center text-xs">
+          "Front-end developer and avid readeer".
+        </p>
+      </div>
+      <div>
+        <ul class="w-52 m-auto flex flex-col items-center text-center">
+          <li><a href="https://github.com/" target="_blank"> GitHub</a></li>
+          <li>
+            <a href="https://www.frontendmentor.io" target="_blank"
+              >Frontend Mentor</a
+            >
+          </li>
+          <li><a href="https://www.linkedin.com">Linkedin</a></li>
+          <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank">Instagram </a>
+          </li>
+        </ul>
+      </div>
     </main>
   </body>
 </html>
